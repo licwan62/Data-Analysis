@@ -63,18 +63,18 @@ Weighted Avg.    0.976    0.006    ?          0.976    ?          ?        0.993
 
 === Confusion Matrix ===
 
-     a     b     c     d     e     f     g     h     i     j     k     l     m   <-- classified as
-  2115     0     0     0     0     0     0     0     0    15     0     0     0 |     a = Cancelled
-     0  5594     0    37     0     0     0     0    12    10     0     0     0 |     b = Shipped - Delivered to Buyer
-     0     0 15690     0     0     0     0     0     0     0     0     0     0 |     c = Shipped
-     0   364     0     6     0     0     0     0     0     0     0     0     0 |     d = Shipped - Returned to Seller
-     0     2     0     0     0     0     0     0     1     0     0     0     0 |     e = Shipped - Rejected by Buyer
-     0     1     0     0     0     0     0     0     0     0     0     0     0 |     f = Shipped - Lost in Transit
-     0     8     0     0     0     0     1     0     3     0     0     0     0 |     g = Shipped - Out for Delivery
-     0    26     0     1     0     0     0     0     3     0     0     0     0 |     h = Shipped - Returning to Seller
-     0    53     0     0     0     0     0     0   128     0     0     0     0 |     i = Shipped - Picked Up
-    10     7     2     0     0     0     0     0     0    90    13     0     0 |     j = Pending
-     0     4     0     0     0     0     0     0     1    13    26     0     0 |     k = Pending - Waiting for Pick Up
-     0     0     0     0     0     0     0     0     0     0     0     0     0 |     l = Shipped - Damaged
-     0     0     0     0     0     0     0     0     0     0     0     0     0 |     m = Shipping
+     	 a     b     c     d     e     f     g     h     i     j     k     l     m   <-- classified as
+      2115     0     0     0     0     0     0     0     0    15     0     0     0 |     a = Cancelled
+         0  5594     0    37     0     0     0     0    12    10     0     0     0 |     b = Shipped - Delivered to Buyer
+         0     0 15690     0     0     0     0     0     0     0     0     0     0 |     c = Shipped
+         0   364     0     6     0     0     0     0     0     0     0     0     0 |     d = Shipped - Returned to Seller
+         0     2     0     0     0     0     0     0     1     0     0     0     0 |     e = Shipped - Rejected by Buyer
+         0     1     0     0     0     0     0     0     0     0     0     0     0 |     f = Shipped - Lost in Transit
+         0     8     0     0     0     0     1     0     3     0     0     0     0 |     g = Shipped - Out for Delivery
+         0    26     0     1     0     0     0     0     3     0     0     0     0 |     h = Shipped - Returning to Seller
+         0    53     0     0     0     0     0     0   128     0     0     0     0 |     i = Shipped - Picked Up
+        10     7     2     0     0     0     0     0     0    90    13     0     0 |     j = Pending
+         0     4     0     0     0     0     0     0     1    13    26     0     0 |     k = Pending - Waiting for Pick Up
+         0     0     0     0     0     0     0     0     0     0     0     0     0 |     l = Shipped - Damaged
+         0     0     0     0     0     0     0     0     0     0     0     0     0 |     m = Shipping
 
