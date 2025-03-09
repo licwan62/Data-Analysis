@@ -1,0 +1,10 @@
+@relation ca3
+
+@attribute Gender {M,F}
+@attribute 'Car Type' {Family,Sports,Luxury}
+@attribute 'Shirt Size' {Small,Medium,Large,'Extra Large'}
+@attribute Class {C0,C1}
+
+@data
+F,Family,Large,?
+M,Luxury,Large,?
